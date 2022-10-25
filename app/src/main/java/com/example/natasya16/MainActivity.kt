@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, "Tombol Yes Ditekan", Toast.LENGTH_SHORT).show()
                 })
                 .setNegativeButton("No", DialogInterface.OnClickListener { dialogInterface, i ->
-                    Toast.makeText(this, "Tombol Yes Ditekan", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Tombol No Ditekan", Toast.LENGTH_SHORT).show()
                 })
                 .show()
         }
